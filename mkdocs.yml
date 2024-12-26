@@ -9,6 +9,8 @@ plugins:
 
 theme:
   name: material
+  logo: neural.png
+  favicon: neural.png
   palette:
     primary: purple
     scheme: slate
@@ -29,7 +31,7 @@ theme:
 
 nav:
   - Home: index.md
-  - About Me: about/about.md
+  - About Me: about.md
   - Contact: contact.md
   - Blog:
     - blog/index.md
