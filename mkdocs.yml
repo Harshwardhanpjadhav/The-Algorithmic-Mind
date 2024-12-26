@@ -16,18 +16,20 @@ theme:
     scheme: slate
     accent: blue
   features:
+    # - toc.integrate
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.expand
-
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
 
 nav:
   - Home: index.md

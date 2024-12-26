@@ -2,6 +2,8 @@
 tags:
   - Harshwardhan Jadhav
   - About Me
+
+
 ---
 
 
@@ -12,6 +14,10 @@ tags:
 # 🌟 **About Me** 🌟
 
 ---
+
+<div align="center">
+<img src="circle.png">
+</div>
 
 ### Hi there! 👋 I'm Harshwardhan
 A passionate **AI Engineer** with a knack for **AI Project Development**.  
@@ -45,7 +51,7 @@ Feel free to reach out! I’d love to connect and collaborate.
 
 [📧 Email Me](mailto:harshwardhanpj2001@gmail.com)  
 [💼 LinkedIn](https://linkedin.com/in/harshwardhanpj)  
-[🤖 GitHub](https://github.com/Harshwardhanpjadhav)
+[🧑‍💻 GitHub](https://github.com/Harshwardhanpjadhav)
 
 ---
 
