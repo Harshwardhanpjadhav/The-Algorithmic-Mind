@@ -1,0 +1,81 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  perspective: 1000px; /* Adds 3D perspective to the scene */
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f; /* Dark header background */
+  color: #ffffff; /* Light text */
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  background: #1e1e1e; /* Dark card background */
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 0, 0, 0.2); /* Stronger 3D shadow */
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transform: rotateY(0deg); /* Initial state for 3D effect */
+}
+
+.course-container:hover .course-card {
+  transform: rotateY(10deg) translateZ(20px); /* Rotate and bring cards closer */
+}
+
+.course-card:hover {
+  transform: translateY(-10px) scale(1.05) rotateY(10deg); /* Apply 3D effect and lift */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.3); /* Deep shadow on hover */
+  background-color: #292929; /* Slightly lighter on hover */
+}
+
+.course-image {
+  width: 100%;
+  height: 180px; /* Set consistent height */
+  object-fit: cover; /* Ensures proper scaling without distortion */
+  border-radius: 10px;
+  border: 2px solid #333; /* Optional border for images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom and shadow on hover */
+}
+
+.course-image:hover {
+  transform: scale(1.1); /* Zoom in effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow for image hover */
+}
+
+.course-title {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+  color: #ffffff; /* Light text */
+}
+
+.course-description {
+  font-size: 1em;
+  color: #b0b0b0; /* Subtle light gray */
+  margin-bottom: 20px;
+}
+
+/* Button hover effect - 3D button lift effect */
+.course-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-5px) scale(1.1); /* Lift and grow effect */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); /* Stronger shadow on hover */
+}
+
+/* Ensure links (a) inside buttons are styled properly */
+a {
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline */
+}
