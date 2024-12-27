@@ -1,5 +1,6 @@
 site_name: The Algorithmic Mind
 site_url: https://mydomain.org/mysite
+repo_url: https://github.com/Harshwardhanpjadhav/The-Algorithmic-Mind
 
 plugins:
   - search
@@ -52,7 +53,7 @@ extra:
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
 nav:
-  - Home:  home/index.md
+  - Home: index.md
   - About Me:  home/about.md
   - Contact:  home/contact.md
   - Course:

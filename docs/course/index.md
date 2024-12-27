@@ -3,7 +3,6 @@ hide:
   - navigation
   - toc
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
