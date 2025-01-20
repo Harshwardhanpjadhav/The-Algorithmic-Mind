@@ -1,5 +1,5 @@
 site_name: The Algorithmic Mind
-site_url: https://mydomain.org/mysite
+site_url: https://mydomain.org/the-algorithmic-mind
 repo_url: https://github.com/Harshwardhanpjadhav/The-Algorithmic-Mind
 
 plugins:
@@ -60,8 +60,8 @@ nav:
     - course/index.md
     - course/lists/github.md
     - course/lists/python.md
-    - course/lists/sql.md
-    - course/lists/stat.md
+    - course/lists/MySQL.md
+    - course/lists/statistic.md
     - course/lists/mlalgorithim.md
     - course/lists/deeplearning.md
   - Blog:

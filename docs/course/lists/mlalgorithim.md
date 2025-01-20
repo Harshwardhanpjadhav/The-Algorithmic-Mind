@@ -1,1 +1,1 @@
-# Machine Learning Algorithim
+# Machine Learning
