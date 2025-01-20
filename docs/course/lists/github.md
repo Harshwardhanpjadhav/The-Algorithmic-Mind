@@ -1,5 +1,5 @@
 
-# **GitHub Tutorial**
+# **GitHub**
 
 ![GitHub](list_images/github.jpeg)
 
